@@ -43,12 +43,12 @@ TODO
 
 ## QEMU Emulator starten und mit GDB verbinden
 QEMU und GDB müssen in unterschiedlichen Konsolen (Shells) gestartet werden.
- - QEMU Emlation Starten:
-   `qemu-system-arm -M microbit -device loader,file=simple.elf -nographic -S -s`
- - GDB zu WEMU verbinden:
-   `gdb-multiarch simple.elf -ex "target extended-remote localhost:1234" -ex "load"`
+ - QEMU Emulation Starten:
+   `qemu-system-arm -M microbit -device loader,file=Simple.elf -nographic -S -s`
+ - GDB zu QEMU verbinden:
+   `gdb-multiarch Simple.elf -ex "target extended-remote localhost:1234" -ex "load"`
 
-Hilfreiche GDB Befehele:
+Hilfreiche GDB Befehle:
  - _help_ und _apropos_
  - _step_ und _next_
  - _info all-registers_

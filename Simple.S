@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
  * Thomas Vogt, thomas@thomas-vogt.de
- * Sven Reis 
+ * Sven Reis
  **/
 
 .section .text
@@ -25,4 +25,3 @@ NOP
 
 LDR R3, =Reset_Handler
 BX R3
-
